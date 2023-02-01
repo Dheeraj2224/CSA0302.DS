@@ -1,11 +1,11 @@
-struct node *newNode;
-newNode = malloc(sizeof(struct node));
-newNode->data = 4;
-newNode->next = NULL;
-
-struct node *temp = head;
-while(temp->next != NULL){
-  temp = temp->next;
-}
-
-temp->next = newNode;
+p=start;  
+for(i=0;i<loc;i++)  
+{  
+    p1=p;       
+    p=p->next;  
+if(p==NULL)
+{  
+    printf("\nlocation does not exist");  
+    return;  
+}  
+}  
