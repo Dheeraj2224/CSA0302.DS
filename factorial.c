@@ -8,8 +8,6 @@ int main()
  
     printf("Enter a number to find factorial: ");
     scanf("%d",&n);
- 
-    // show error if the user enters a negative integer
     if (n < 0)
         printf("Error! Please enter any positive integer number");
  
@@ -17,7 +15,7 @@ int main()
     {
         for(i=1; i<=n; ++i)
         {
-            factorial *= i;              // factorial = factorial*i;
+            factorial *= i;             
         }
         printf("Factorial of Number %d = %llu", n, factorial);
     }
